@@ -26,7 +26,6 @@ h3 {
 img {
     transition: .5s ease;
     height: 700px;
-
 }
 
 .navbar-brand {
@@ -44,21 +43,6 @@ img {
 .card {
     margin: 5%;
 }
-
-
-.navbar-brand {
-    color:white;
-}
-
-.sidebar {
-    background: lightgreen;
-    height: 700px;
-}
-
-
-
-
-
 
 
 
