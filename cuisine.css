@@ -2,16 +2,11 @@
     height: 100px;
 }
 
-#sidebar {
-    background: lightslategray;
-}
-
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-
 
 
 h2 {
@@ -37,10 +32,25 @@ img {
     color:white;
 }
 
-.sidebar-right {
+.sidebar {
     background: lightgreen;
     height: 700px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 .carousel-caption {
     transition: .5s ease;
