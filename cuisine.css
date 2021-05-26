@@ -48,12 +48,56 @@ img {
     margin: 5%;
 }
 
+.container-inflammation {
+    
+}
 
 .card-inflammation {
     padding: 3%;
     border: 3px solid black;
     margin: 3%;
 }
+
+.title-card-inflammation {
+    padding: 3%;
+
+}
+
+.text-card-inflammation {
+    padding: 3%;
+}
+
+.text-intro-vegan {
+    font-weight: 300;
+}
+
+.vegan {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.title-card-vegan {
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.intro-vegan {
+    padding: 3%;
+    color: white;
+}
+
+.hidden {
+    height: 500px;
+}
+
+.btn-dark {
+    margin-top: 5%;
+}
+
+
+
+
+
 
 
 
