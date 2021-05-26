@@ -30,10 +30,22 @@ img {
     margin-bottom: 3%;
 }
 
+.nav-item {
+    padding-right: 3%;
+    padding-right: 3%;
+}
 
+.bi-reddit {
+    color: blue;
+    width: 4%;
+    height: 4%;
+    margin-left: 2%;
+}
 
 .navbar-brand {
     color:white;
+    padding-left: 1%;
+    padding-right: 20%;
 }
 
 .sidebar {
@@ -46,10 +58,6 @@ img {
 
 .card {
     margin: 5%;
-}
-
-.container-inflammation {
-    
 }
 
 .card-inflammation {
