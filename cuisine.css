@@ -1,3 +1,12 @@
+* {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
 .navbar {
     height: 100px;
 }
@@ -36,7 +45,6 @@ img {
 }
 
 .bi-reddit {
-    color: blue;
     width: 4%;
     height: 4%;
     margin-left: 2%;
@@ -62,7 +70,7 @@ img {
 
 .card-inflammation {
     padding: 3%;
-    border: 3px solid black;
+    border: 15px solid black;
     margin: 3%;
 }
 
@@ -84,10 +92,25 @@ img {
     margin-bottom: 10%;
 }
 
-.title-card-vegan {
+.title-card-vegan1 {
     margin-top: 10%;
     margin-bottom: 3%;
 }
+
+.title-card-vegan2 {
+    margin-top: 15%;
+}
+
+.text-card-vegan1 {
+    padding-left: 3%;
+}
+
+.text-card-vegan2 {
+    padding-left: 3%;
+}
+
+
+
 
 .intro-vegan {
     padding: 3%;
@@ -98,16 +121,26 @@ img {
     height: 500px;
 }
 
-.btn-dark {
-    margin-top: 5%;
+.reseaux-icon {
+    padding: 3%;
+}
+
+.card-foot {
+    height: 150px;
+    padding: 1%;
+    margin: 2%;
+}
+
+.btn-primary {
+    border-radius: 30%;
 }
 
 
 
 
-
-
-
+.container-recette-inflamation {
+    margin-top: 5%;
+}
 
 /*
 .carousel-caption {
