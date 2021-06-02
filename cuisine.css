@@ -4,19 +4,19 @@
     font-size: 20px;
 }
 
-
-
+.card-body-foot {
+    margin-bottom: 2%;
+}
 
 .navbar {
     height: 100px;
 }
 
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+.card-foot {
+    height: 150px;
+    padding: 1%;
+    margin: 2%;
 }
-
 
 h2 {
     background-color: lightslategray;
@@ -125,17 +125,11 @@ img {
     padding: 3%;
 }
 
-.card-foot {
-    height: 150px;
-    padding: 1%;
-    margin: 2%;
-}
+
 
 .btn-primary {
-    border-radius: 30%;
+    margin-bottom: 3%;
 }
-
-
 
 
 .container-recette-inflamation {
@@ -160,3 +154,7 @@ img {
     opacity: 1;
 }
 */
+
+
+
+

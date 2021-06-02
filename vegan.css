@@ -16,12 +16,9 @@
 
 
 
-.btn-primary {
-    margin-bottom: 3%;
-}
+
 
 .nav-item {
-    padding-right: 3%;
     padding-right: 3%;
 }
 
@@ -45,7 +42,7 @@
     margin: 3%;
 }
 
-.card-inflammation {
+.card-vegan {
     border: 2px solid black;
     border-radius: 30px;
     box-shadow: 3px 3px black, -1em 0 .4em #0d6efd;
@@ -84,7 +81,7 @@
     height: auto;
 }
 
-.container-recette-inflamation {
+.container-recette-vegan {
     margin-top: 3%;
     margin-bottom: 3%;
 }
