@@ -1,13 +1,22 @@
+* {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.card-body-foot {
+    margin-bottom: 2%;
+}
+
 .navbar {
     height: 100px;
 }
 
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+.card-foot {
+    height: 150px;
+    padding: 1%;
+    margin: 2%;
 }
-
 
 h2 {
     background-color: lightslategray;
@@ -30,10 +39,21 @@ img {
     margin-bottom: 3%;
 }
 
+.nav-item {
+    padding-right: 3%;
+    padding-right: 3%;
+}
 
+.bi-reddit {
+    width: 4%;
+    height: 4%;
+    margin-left: 2%;
+}
 
 .navbar-brand {
     color:white;
+    padding-left: 1%;
+    padding-right: 20%;
 }
 
 .sidebar {
@@ -48,14 +68,73 @@ img {
     margin: 5%;
 }
 
-
 .card-inflammation {
     padding: 3%;
-    border: 3px solid black;
+    border: 15px solid black;
     margin: 3%;
 }
 
+.title-card-inflammation {
+    padding: 3%;
 
+}
+
+.text-card-inflammation {
+    padding: 3%;
+}
+
+.text-intro-vegan {
+    font-weight: 300;
+}
+
+.vegan {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.title-card-vegan1 {
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.title-card-vegan2 {
+    margin-top: 15%;
+}
+
+.text-card-vegan1 {
+    padding-left: 3%;
+}
+
+.text-card-vegan2 {
+    padding-left: 3%;
+}
+
+
+
+
+.intro-vegan {
+    padding: 3%;
+    color: white;
+}
+
+.hidden {
+    height: 500px;
+}
+
+.reseaux-icon {
+    padding: 3%;
+}
+
+
+
+.btn-primary {
+    margin-bottom: 3%;
+}
+
+
+.container-recette-inflamation {
+    margin-top: 5%;
+}
 
 /*
 .carousel-caption {
@@ -75,3 +154,7 @@ img {
     opacity: 1;
 }
 */
+
+
+
+
