@@ -4,16 +4,20 @@
     font-size: 20px;
 }
 
+
+
+
 .card-body-foot {
     margin-bottom: 2%;
 }
+
 
 .navbar {
     height: 100px;
 }
 
 .card-foot {
-    height: 150px;
+    
     padding: 1%;
     margin: 2%;
 }
@@ -109,8 +113,9 @@ img {
     padding-left: 3%;
 }
 
-
-
+.card-vegan {
+    padding: 2%;
+}
 
 .intro-vegan {
     padding: 3%;
@@ -123,12 +128,6 @@ img {
 
 .reseaux-icon {
     padding: 3%;
-}
-
-
-
-.btn-primary {
-    margin-bottom: 3%;
 }
 
 
