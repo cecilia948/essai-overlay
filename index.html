@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     
 </head>
+<body>
 
-<header>
+    
   <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reddit" viewBox="0 0 16 16">
@@ -26,23 +27,23 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item mb-0 h4">
-            <a class="nav-link active" aria-current="page" href="index.html#index">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html#index">Home</a>
           </li>
           <li class="nav-item mb-0 h4">
             <a class="nav-link" href="evenement.html#evenement">Evenement</a>
           </li>
           <li class="nav-item  mb-0 h4 dropdown">
-            <a class="nav-link dropdown-toggle bg-dark text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link active dropdown-toggle bg-dark text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Recettes
             </a>
-            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="anti-inflamatoire.html">Anti-inflamatoire</a></li>
-              <li><a class="dropdown-item" href="vegan.html#vegan">Vegan</a></li>
+              <li><a class="dropdown-item" href="recette.html#vegan">Vegan</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="dessert.html#dessert-light">Patisserie light</a></li>
+              <li><a class="dropdown-item" href="recette.html#dessert-light">Patisserie light</a></li>
             </ul>
           </li>
         </ul>
@@ -53,9 +54,8 @@
       </div>   
     </div>
   </nav>
-</header>
 
-<body>
+
 
   <div class="container">
     <div class="row">
@@ -71,7 +71,7 @@
               <img src="images/anti_inflammatoire.jpg" alt="..." class="img-responsive">
               <div class="carousel-caption d-none d-md-block">
                 <h2>Cuisine Anti-inflamatoire</h2>
-                <h3>Diminition voir suppression des aliments provoquant l'inflammation.<h3>
+                <p>Diminition voir suppression des aliments provoquant l'inflammation.</p>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
@@ -214,8 +214,8 @@
         
 
       </div>
-
-  
+    </div>
+    
     <div class="card-vegan">
       <div class="row">
         <div class="card-vegan col-md-6">
@@ -223,7 +223,7 @@
             <h4>Être vegan : les avantages sur le physique et le poids</h4>
           </div>
           <div class="text-card-vegan1">
-            <p>Non seulement on peut très bien <span text-danger> être vegan et sportif,</span> mais en plus, un régime végétalien contribue à améliorer les performances physiques ! </p>
+            <p>Non seulement on peut très bien <span> être vegan et sportif,</span> mais en plus, un régime végétalien contribue à améliorer les performances physiques ! </p>
 
             <p>Une <strong>alimentation végétale</strong> fournirait plus d'énergie, moins de douleurs et une meilleure santé globale. </p>
 
@@ -256,11 +256,7 @@
         </div>
       </div>
     </div>
-
-      </div>        
-    </div>
   </div>
-
 
   <footer class="footer w-100 bg-dark text-light">
     <div class="card-foot">
