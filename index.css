@@ -5,15 +5,33 @@
 }
 
 
-
-
 .card-body-foot {
     margin-bottom: 2%;
 }
 
 
 .navbar {
+    position: absolute;
+    z-index: 10;
     height: 100px;
+}
+
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.img-cuisto {
+    width: 90%;
+    height: 50%;
+}
+
+.card-img-top {
+    height: 200px;
 }
 
 .card-foot {
@@ -62,10 +80,6 @@ img {
 
 .sidebar {
     height: auto;
-}
-
-.img-card-top {
-    height: 200px;
 }
 
 .card {
@@ -134,6 +148,8 @@ img {
 .container-recette-inflamation {
     margin-top: 5%;
 }
+
+
 
 /*
 .carousel-caption {
